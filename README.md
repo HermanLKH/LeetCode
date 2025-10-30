@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/HermanLKH/LeetCode/tree/master/0035-search-insert-position) |
+| [0217-contains-duplicate](https://github.com/HermanLKH/LeetCode/tree/master/0217-contains-duplicate) |
 | [0907-koko-eating-bananas](https://github.com/HermanLKH/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/HermanLKH/LeetCode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/HermanLKH/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -40,4 +41,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/HermanLKH/LeetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/HermanLKH/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
+## Hash Table
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/HermanLKH/LeetCode/tree/master/0217-contains-duplicate) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/HermanLKH/LeetCode/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
