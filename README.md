@@ -71,8 +71,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/HermanLKH/LeetCode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/HermanLKH/LeetCode/tree/master/0268-missing-number) |
+| [0338-counting-bits](https://github.com/HermanLKH/LeetCode/tree/master/0338-counting-bits) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/HermanLKH/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0338-counting-bits](https://github.com/HermanLKH/LeetCode/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
