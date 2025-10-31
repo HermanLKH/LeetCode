@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/HermanLKH/LeetCode/tree/master/0001-two-sum) |
 | [0035-search-insert-position](https://github.com/HermanLKH/LeetCode/tree/master/0035-search-insert-position) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/HermanLKH/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/HermanLKH/LeetCode/tree/master/0136-single-number) |
 | [0217-contains-duplicate](https://github.com/HermanLKH/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/HermanLKH/LeetCode/tree/master/0219-contains-duplicate-ii) |
@@ -70,4 +71,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/HermanLKH/LeetCode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/HermanLKH/LeetCode/tree/master/0268-missing-number) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/HermanLKH/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
