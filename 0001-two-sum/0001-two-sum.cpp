@@ -1,23 +1,25 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        int num1;
-        int num2;
-        vector<int> ans;
+        // number, index
+        unordered_map<int, int> seen;
 
-        for (int x = 0; x < nums.size(); ++x) {
-            num1 = nums[x];
+        for (int i = 0; i < nums.size(); ++i) {
+            seen[nums[i]] = i;
+        }
 
-            for (int y = 0; y < nums.size() && y != x; ++y) {
-                num2 = nums[y];
-
-                if (num1 + num2 == target) {
-                    ans.push_back(x);
-                    ans.push_back(y);
-                    return ans;
+        for (int i = 0; i < nums.size(); ++i) {
+            // calculate difference between selected number and target
+            int diff = target - nums[i];
+            
+            // check if the difference number exist
+            if (seen.count(diff)) {
+                // if same element found -> ignore
+                if (seen[diff] != i) {
+                    return vector<int>{i, seen[diff]};
                 }
             }
         }
-        return ans;
+        return vector<int>{};
     }
 };
