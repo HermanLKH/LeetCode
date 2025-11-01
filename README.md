@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/HermanLKH/LeetCode/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/HermanLKH/LeetCode/tree/master/0069-sqrtx) |
 | [0268-missing-number](https://github.com/HermanLKH/LeetCode/tree/master/0268-missing-number) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/HermanLKH/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0907-koko-eating-bananas](https://github.com/HermanLKH/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/HermanLKH/LeetCode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/HermanLKH/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/HermanLKH/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/HermanLKH/LeetCode/tree/master/0268-missing-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/HermanLKH/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/HermanLKH/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0907-koko-eating-bananas](https://github.com/HermanLKH/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/HermanLKH/LeetCode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/HermanLKH/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
