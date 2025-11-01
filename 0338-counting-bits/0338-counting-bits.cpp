@@ -6,6 +6,7 @@ public:
         }
 
         vector<int> ans = {0, 1};
+        ans.reserve(n + 1);    
         
         for (int i = 0; i < (int) log2(n); ++i) {
             int ansSize = ans.size();
