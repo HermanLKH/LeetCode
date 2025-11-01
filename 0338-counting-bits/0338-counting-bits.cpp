@@ -1,17 +1,14 @@
 class Solution {
 public:
     vector<int> countBits(int n) {
-        if (n == 0) {
-            return {0};
-        }
-
-        vector<int> ans = {0, 1};
-        ans.reserve(n + 1);    
+        vector<int> ans;
+        ans.reserve(n + 1);  
+        ans.push_back(0);  
         
-        for (int i = 0; i < (int) log2(n); ++i) {
-            int ansSize = ans.size();
+        for (size_t i = 0; i < (size_t) log2(n + 1) + 1; ++i) {
+            size_t ansSize = ans.size();
 
-            for (int j = 0; j < ansSize; ++j) {
+            for (size_t j = 0; j < ansSize; ++j) {
                 if (ans.size() < n + 1) {
                     ans.push_back(ans[j] + 1);
                 }
