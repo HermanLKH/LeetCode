@@ -1,15 +1,7 @@
 /* Write your T-SQL query statement below */
 SELECT
-    id
-FROM(
-    SELECT
-        id,
-        temperature,
-        recordDate,
-        LAG(temperature) OVER(ORDER BY recordDate) prevTemp,
-        LAG(recordDate) OVER(ORDER BY recordDate) prevDate
-    FROM Weather
-)t
-WHERE
-    temperature > prevTemp AND
-    DATEDIFF(DAY, prevDate, recordDate) = 1
+    w1.id
+FROM Weather w1
+INNER JOIN Weather w2
+ON DATEDIFF(DAY, w2.recordDate, w1.recordDate) = 1
+WHERE w1.temperature > w2.temperature
