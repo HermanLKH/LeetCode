@@ -1,9 +1,9 @@
 /* Write your T-SQL query statement below */
 SELECT
-    r.contest_id,
-    ROUND((CAST(COUNT(DISTINCT r.user_id) AS FLOAT) / (SELECT COUNT(*) FROM users)) * 100, 2) AS percentage
+    contest_id,
+    ROUND((CAST(COUNT(DISTINCT user_id) AS FLOAT) / (SELECT COUNT(*) FROM users)) * 100, 2) AS percentage
 FROM Register r
-LEFT JOIN Users u
-ON r.user_id = u.user_id
-GROUP BY r.contest_id
-ORDER BY percentage DESC, r.contest_id ASC
+GROUP BY contest_id
+ORDER BY 
+    percentage DESC, 
+    contest_id
