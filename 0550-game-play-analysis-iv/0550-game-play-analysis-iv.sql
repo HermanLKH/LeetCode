@@ -31,8 +31,3 @@ FROM
     )t2
     GROUP BY player_id
 )t3
-
--- SELECT
---     MIN(event_date)
--- FROM Activity
--- GROUP BY player_id
