@@ -24,4 +24,4 @@ FROM CTE_First_Logins cfl
 LEFT JOIN Activity a
 ON
     cfl.player_id = a.player_id AND
-    DATEDIFF(DAY, cfl.first_login_date, a.event_date) = 1
+    a.event_date = DATEADD(DAY, 1, cfl.first_login_date)
