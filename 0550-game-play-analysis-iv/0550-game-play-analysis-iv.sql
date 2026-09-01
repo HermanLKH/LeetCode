@@ -1,33 +1,27 @@
 -- /* Write your T-SQL query statement below */
-SELECT
-    ROUND(AVG(player_fraction), 2) AS fraction
-FROM
+WITH CTE_First_Logins AS
 (
     SELECT
-        player_id, 
-        SUM(
+        player_id,
+        MIN(event_date) AS first_login_date
+    FROM Activity
+    GROUP BY player_id
+)
+SELECT
+    -- cfl.player_id,
+    -- cfl.first_login_date,
+    -- a.event_date AS second_login_date,
+    ROUND(
+        AVG(
             CASE
-                WHEN date_diff = 1
+                WHEN a.event_date IS NOT NULL
                     THEN 1.0
                 ELSE 0
             END
-        ) AS player_fraction
-    FROM
-    (
-        SELECT
-            player_id,
-            -- event_date,
-            LAG(event_date, 1, NULL) OVER(PARTITION BY player_id ORDER BY event_date) prev_date,
-            DATEDIFF(DAY, LAG(event_date, 1, NULL) OVER(PARTITION BY player_id ORDER BY event_date), event_date) date_diff
-        FROM 
-        (
-            SELECT
-                player_id,
-                event_date,
-                RANK() OVER(PARTITION BY player_id ORDER BY event_date) rank
-            FROM Activity
-        )t1
-        WHERE rank <= 2
-    )t2
-    GROUP BY player_id
-)t3
+        ), 
+    2) AS fraction
+FROM CTE_First_Logins cfl
+LEFT JOIN Activity a
+ON
+    cfl.player_id = a.player_id AND
+    DATEDIFF(DAY, cfl.first_login_date, a.event_date) = 1
