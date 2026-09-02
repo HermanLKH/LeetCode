@@ -9,7 +9,6 @@ FROM
 (
     SELECT
         product_id,
-        -- MIN(year) AS first_year,
         year,
         quantity,
         price,
