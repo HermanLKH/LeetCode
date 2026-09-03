@@ -3,7 +3,7 @@ WITH CTE_Manager_Summary AS
 (
     SELECT
         reports_to AS manager_id,
-        COUNT(DISTINCT employee_id) AS reports_count,
+        COUNT(employee_id) AS reports_count,
         ROUND(AVG(CAST(age AS FLOAT)), 0) AS average_age
     FROM Employees
     WHERE reports_to IS NOT NULL
