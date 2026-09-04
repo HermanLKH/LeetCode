@@ -9,15 +9,5 @@ WITH CTE_Logs_Consecutive AS
 )
 SELECT
     DISTINCT num AS ConsecutiveNums
-FROM
-(
-    SELECT
-        num,
-        CASE
-            WHEN id - first_id = 2
-                THEN 1
-            ELSE 0
-        END AS at_least_3_consecutive
-    FROM CTE_Logs_Consecutive
-)t
-WHERE at_least_3_consecutive = 1
+FROM CTE_Logs_Consecutive
+WHERE id - first_id = 2
