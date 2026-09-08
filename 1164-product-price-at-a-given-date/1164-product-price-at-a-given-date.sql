@@ -20,4 +20,4 @@ SELECT
     product_id,
     10 AS price
 FROM Products
-WHERE product_id NOT IN (SELECT DISTINCT product_id FROM CTE_Products_Price_By_Date)
+WHERE product_id NOT IN (SELECT product_id FROM CTE_Products_Price_By_Date)
