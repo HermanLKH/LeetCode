@@ -6,12 +6,8 @@ FROM
     SELECT
         person_name,
         turn,
-        CASE 
-            WHEN SUM(weight) OVER(ORDER BY turn) <= 1000 
-                THEN 1
-            ELSE 0
-        END AS is_onboarded
+        SUM(weight) OVER(ORDER BY turn) AS total_weight
     FROM Queue
 )t
-WHERE is_onboarded = 1
+WHERE total_weight <= 1000
 ORDER BY turn DESC
