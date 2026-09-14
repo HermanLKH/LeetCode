@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/HermanLKH/LeetCode/tree/master/0001-two-sum) |
 | [0035-search-insert-position](https://github.com/HermanLKH/LeetCode/tree/master/0035-search-insert-position) |
+| [0049-group-anagrams](https://github.com/HermanLKH/LeetCode/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/HermanLKH/LeetCode/tree/master/0066-plus-one) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/HermanLKH/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/HermanLKH/LeetCode/tree/master/0136-single-number) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/HermanLKH/LeetCode/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/HermanLKH/LeetCode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/HermanLKH/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/HermanLKH/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/HermanLKH/LeetCode/tree/master/0242-valid-anagram) |
@@ -68,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/HermanLKH/LeetCode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/HermanLKH/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/HermanLKH/LeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/HermanLKH/LeetCode/tree/master/0268-missing-number) |
@@ -140,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/HermanLKH/LeetCode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/HermanLKH/LeetCode/tree/master/0242-valid-anagram) |
 ## Linked List
 |  |
