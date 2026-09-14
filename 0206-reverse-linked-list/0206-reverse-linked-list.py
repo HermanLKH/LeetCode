@@ -8,20 +8,14 @@ class Solution:
         if head is None or head.next is None:
             return head
         
-        currNode = head.next
-        prevNode = head
-        nextNode = currNode.next
-        head.next = None
+        prev = None
+        curr = head
 
-        while currNode is not None:
-            currNode.next = prevNode
-            prevNode = currNode
-            currNode = nextNode
+        while curr:
+            next = curr.next
+            curr.next = prev
+            prev = curr
+            curr = next
 
-            if nextNode is not None:
-                nextNode = currNode.next
-            else:
-                nextNode = None
-
-        return prevNode
+        return prev
 
