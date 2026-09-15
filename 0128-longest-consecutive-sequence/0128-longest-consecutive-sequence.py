@@ -2,27 +2,21 @@ class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         if len(nums) == 0:
             return 0
-        # O(n log n)    
-        sorted_nums = sorted(nums)
-        current_num = sorted_nums[0]
-        longest_consec_count = 1
-        curr_consec_count = 1
-        # O(n)
-        for i in range(1, len(sorted_nums), 1):
-            next_num = sorted_nums[i]
 
-            if current_num + 1 == next_num:
-                curr_consec_count += 1
+        num_set = set(nums)
+        longest_streak = 0
+
+        for num in num_set:
+            if num - 1 not in num_set:
+                curr_num = num
+                curr_streak = 1
+
+                while curr_num + 1 in num_set:
+                    curr_num += 1
+                    curr_streak += 1
                 
-                if curr_consec_count > longest_consec_count:
-                    longest_consec_count = curr_consec_count
+                longest_streak = max(curr_streak, longest_streak)
 
-            elif current_num == next_num:
-                continue
+        return longest_streak
+                
 
-            else:
-                curr_consec_count = 1
-            
-            current_num = next_num
-
-        return longest_consec_count
