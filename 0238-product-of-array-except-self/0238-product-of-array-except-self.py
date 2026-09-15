@@ -10,7 +10,7 @@ class Solution:
             else:
                 if not has_zero:
                     has_zero = True 
-                else:
+                elif not has_zeroes:
                     has_zeroes = True  
 
         ans = []
