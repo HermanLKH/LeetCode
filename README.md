@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/HermanLKH/LeetCode/tree/master/0162-find-peak-element) |
 | [0217-contains-duplicate](https://github.com/HermanLKH/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/HermanLKH/LeetCode/tree/master/0219-contains-duplicate-ii) |
+| [0238-product-of-array-except-self](https://github.com/HermanLKH/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/HermanLKH/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/HermanLKH/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -176,4 +177,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode/tree/master/0347-top-k-frequent-elements) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/HermanLKH/LeetCode/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
